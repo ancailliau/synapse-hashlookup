@@ -8,11 +8,8 @@ lookups seamlessly within your Synapse environment.
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Installation](#installation-from-source)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [API Documentation](#api-documentation)
-- [Hooks and Alerts](#hooks-and-alerts)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -33,10 +30,10 @@ using Git or download it as a ZIP archive and extract it.
 Synapse Power-Ups directory. The location may vary depending on your Synapse
 installation.
 
-```
-python -m synapse.tools.genpkg ./synapse-hashlookup.yaml \
-  --push tcp://USER:PASSWORD@localhost/cortex
-```
+    ```
+    python -m synapse.tools.genpkg ./synapse-hashlookup.yaml \
+      --push tcp://USER:PASSWORD@localhost/cortex
+    ```
 
 ## Usage
 
